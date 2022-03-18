@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.main-header {
+    position: fixed;
+    background-color: #2ddf5c;
+    padding: 8px 16px;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    display: block;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    font-size: 22px;
+    /* height: 22px; */
+    width: 28px;
+    display: inline-block;
+}
+
+.main-header__brand img {
+    width: 100%;
+}
+
+.main-nav {
+    text-align: right;
+    display: inline-block;
+    width: calc(100% - 73px);
+    vertical-align: middle;
+}
+
+.main-nav_items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+.main-nav__item a:hover, .main-nav__item a:active {
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+.main-nav__item--cta a {
+    color: white;
+    background: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: #ff1b68;
+    border: none;
+    background: white;
+}
+
+.main-footer {
+    background: black;
+    text-decoration: none;
+    padding: 32px;
+}
+
+.main-footer__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-footer__link {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-footer__link a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer__link a:hover, 
+.main-footer__link a:active {
+    color: #ccc;
+}
+
+.button {
+    background: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1.5px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover, .button:active {
+    background: white;
+    color: #0e4f1f;
+}
+
+.button:focus {
+    outline: none;
+}

@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Montserrat', sans-serif;
+    margin: 0;
+}
+
+#product-overview {
+    background: no-repeat url('./images/freedom.jpg') left 50% bottom 70%/cover border-box border-box;
+    height: 700px;
+    margin-top: 67px;
+    position: relative;
+}
+
+#product-overview h1 {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+
+.section-title {
+    color: #2ddf5c;
+    text-align: center;
+}
+
+.plan__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.plan {
+    background: #d5ffdc;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.plan-highlighted {
+    background: #19b84c;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(95, 134, 100);
+}
+
+.plan__annotation {
+    background: white;
+    color: #19b84c;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 2px rgb(95, 134, 100);
+    border-radius: 5px;
+}
+
+.plan__title {
+    color: #0e4f1f;
+}
+
+.plan__price {
+    color:rgb(95, 134, 100)
+}
+
+.plan-highlighted .plan__title {
+    color: white;
+}
+
+.plan-highlighted .plan__price{
+    color: black;
+}
+
+.plan__features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__features li {
+    margin: 8px 0;
+}
+
+.button {
+    background: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1.5px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover, .button:active {
+    background: white;
+    color: #0e4f1f;
+}
+
+.button:focus {
+    outline: none;
+}
+
+#key-features {
+    background: #ff1b68;
+    margin-top: 50px;
+    padding-top: 15px;
+}
+
+#key-features .section-title {
+    color: white;
+    margin: 32px;
+}
+
+.key-features__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.key-feature {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.key-features__img {
+
+    background: #ffcede;
+    width: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    height: 128px;
+    margin: auto;
+}
+
+.key-features__desc {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#product-overview h1 {
+    margin: 0;
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+.main-header {
+    background-color: #2ddf5c;
+    padding: 8px 16px;
+    width: 100%;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-nav {
+    text-align: right;
+    display: inline-block;
+    width: calc(100% - 73px);
+    vertical-align: middle;
+}
+
+.main-nav_items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+.main-nav__item a:hover, .main-nav__item a:active {
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+.main-nav__item--cta a {
+    color: white;
+    background: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: #ff1b68;
+    border: none;
+    background: white;
+}
+
+.main-footer {
+    background: black;
+    text-decoration: none;
+    padding: 32px;
+}
+
+.main-footer__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-footer__link {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-footer__link a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer__link a:hover, 
+.main-footer__link a:active {
+    color: #ccc;
+}
+
+/* .main-nav__item a::after {
+    content: "{Link}";
+    color:red;
+} */
+
+/* p::first-letter {
+    color: red;
+    font-size: 30px;
+} */
