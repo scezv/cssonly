@@ -33,42 +33,28 @@ body {
     }
 }
 
-@media (min-width: 60rem) {
-    #product-overview {
-        height: 50vh;
-        background-position: 50% 25%;
-    }
-
-    #product-overview h1 {
-        font-size: 5rem;
-    }
-}
-
 .section-title {
     color: #2ddf5c;
     text-align: center;
 }
 
-.plan__list {
-    width: 80%;
-    margin: auto;
+/* .plan__list {
+    width: 100%;
     text-align: center;
-}
+} */
 
 .plan {
     background: #d5ffdc;
     text-align: center;
     padding: 1rem;
-    margin: 0.5rem;
-    display: inline-block;
-    width: 30%;
-    vertical-align: middle;
+    margin: 0.5rem 0;
+    width: 100%;
 }
 
 .plan-highlighted {
     background: #19b84c;
     color: white;
-    box-shadow: 2px 2px 2px 2px rgb(95, 134, 100);
+    /* box-shadow: 2px 2px 2px 2px rgb(95, 134, 100); */
 }
 
 .plan__annotation {
@@ -105,6 +91,25 @@ body {
     margin: 0.5rem 0;
 }
 
+@media (min-width: 40rem) {
+    .plan__list {
+        width: 100%;
+        text-align: center;
+    }
+
+    .plan {
+        display: inline-block;
+        width: 30%;
+        vertical-align: middle;
+        min-width: 13rem;
+        max-width: 20rem;
+    }
+
+    .plan-highlighted {
+        box-shadow: 2px 2px 2px 2px rgb(95, 134, 100);
+    }
+}
+
 .button {
     background: #0e4f1f;
     color: white;
@@ -128,8 +133,10 @@ body {
 
 #key-features {
     background: #ff1b68;
-    margin-top: 3.125rem;
+    /* margin-top: 3.125rem; */
+    margin-top: 0;
     padding-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 #key-features .section-title {
@@ -141,18 +148,17 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+    padding-bottom: 1.25rem;
     font-weight: bold;
     text-align: center;
 }
 
 .key-feature {
-    display: inline-block;
-    width: 30%;
-    vertical-align: top;
+    width: 100%;
+    vertical-align: middle;
 }
 
 .key-features__img {
-
     background: #ffcede;
     width: 128px;
     border: 2px solid #424242;
@@ -160,7 +166,6 @@ body {
     height: 128px;
     margin: auto;
     padding: 1.25rem;
-    ;
 }
 
 .key-features__desc {
@@ -168,6 +173,20 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+    margin: 0;
+}
+
+@media (min-width: 40rem) {
+    .key-feature {
+        display: inline-block;
+        width: 30%;
+        min-width: 13.75rem;
+        max-width: 20rem;
+    }
+
+    #key-features {
+        margin-top: 3.125rem;
+    }
 }
 
 #product-overview h1 {
@@ -239,7 +258,7 @@ body {
     background: white;
 } */
 
-.main-footer {
+/* .main-footer {
     background: black;
     text-decoration: none;
     padding: 2rem;
@@ -265,7 +284,7 @@ body {
 .main-footer__link a:hover,
 .main-footer__link a:active {
     color: #ccc;
-}
+} */
 
 /* .main-nav__item a::after {
     content: "{Link}";
