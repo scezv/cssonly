@@ -11,7 +11,7 @@ body {
     background: linear-gradient(to top, rgba(80, 68, 18, 0.60) 10%, transparent), no-repeat url('./images/freedom.jpg') left 10% bottom 80%/cover border-box border-box, #ff1b68;
     /* background-image: radial-gradient(circle at 25%,red, blue); */
     height: 33vh;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     position: relative;
 }
 
@@ -22,7 +22,7 @@ body {
     font-size: 1.6rem;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 40rem) and (min-height:40rem) {
     #product-overview {
         height: 40vh;
         background-position: 50% 25%;

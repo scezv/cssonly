@@ -1,3 +1,7 @@
+main {
+    padding-top: 2rem;
+}
+
 .package {
     width: 80%;
     margin: 1rem 0;
@@ -90,4 +94,23 @@
 
 #premium .package__subtitle {
     color: #bbb;
+}
+
+@media (min-width: 40rem) {
+    main {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1280px;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .package {
+        border-left: 5px solid #0e4f1f;
+    }
+
+    #free {
+        border-right: 5px solid #0e4f1f;
+    }
 }
